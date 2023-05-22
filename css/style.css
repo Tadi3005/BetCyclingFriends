@@ -1,0 +1,190 @@
+/* CSS pour le body */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Police de caractère */
+    margin: 0; /* Supprimer les marges par défaut */
+}
+/* CSS pour le header */
+header {
+    background-color: #333; /* Couleur de fond du header */
+    color: #fff; /* Couleur du texte du header */
+    padding: 20px; /* Espacement interne du header */
+}
+
+h1 {
+    margin: 0; /* Supprimer les marges par défaut */
+}
+
+nav ul {
+    list-style-type: none; /* Supprimer les puces de la liste */
+    margin: 0; /* Supprimer les marges par défaut */
+    padding: 0; /* Supprimer les espacements internes de la liste */
+}
+
+nav ul li {
+    display: inline-block; /* Afficher les éléments de la liste en ligne */
+    margin-right: 10px; /* Espacement entre les éléments de la liste */
+}
+
+nav ul li a {
+    color: #fff; /* Couleur des liens du header */
+    text-decoration: none; /* Supprimer la soulignement des liens */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Soulignement des liens au survol */
+}
+
+/* CSS pour le main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+table {
+    width: 100%;
+}
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+/* Style pour les lignes paires */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+/* Style pour les lignes impaires */
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.parier-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.course-link {
+    color: #333; /* Couleur du lien */
+    text-decoration: none; /* Supprimer la soulignement des liens */
+    transition: color 0.3s ease; /* Transition de couleur fluide */
+}
+
+a.course-link:hover {
+    color: #4CAF50; /* Couleur au survol du lien */
+}
+.parier-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.parier-button:hover {
+    background-color: #3e8e41;
+}
+#name_player {
+    color: rgba(2, 255, 120, 0.6);
+    font-size: 20px;
+    font-weight: bold;
+}
+#name_player:hover {
+    color: #4CAF50;
+}
+/* CSS pour le classement */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#classement {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding-bottom: 5%;
+}
+
+#classement h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#classement table {
+    width: 80%;
+    max-width: 800px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+#classement th,
+#classement td {
+    padding: 12px;
+    text-align: left;
+}
+
+#classement th {
+    background-color: #333;
+    color: #fff;
+}
+
+#classement tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#classement tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* CSS pour les infos de la course */
+
+.race-info {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.race-info h2 {
+    margin-top: 0;
+}
+
+.race-info p {
+    margin: 0;
+    color: #666;
+}
+
+.coureur-recap {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.coureur-recap h3 {
+    margin-top: 0;
+}
+
+.coureur-recap ul {
+    padding-left: 20px;
+}
+
+.coureur-recap li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+
+
