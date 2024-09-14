@@ -39,8 +39,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Inscription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5zY3JpcHRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/altad/Coding/Rider/BetCyclingFriends/Pages/Ligue.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlndWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/altad/Coding/Rider/BetCyclingFriends/Pages/ModifierParis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9kaWZpZXJQYXJpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/altad/Coding/Rider/BetCyclingFriends/Pages/Parier.cshtml]
