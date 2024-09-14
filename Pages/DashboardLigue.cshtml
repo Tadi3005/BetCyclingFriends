@@ -1,0 +1,99 @@
+@page
+@model DashboardLigueModel
+@{
+ViewData["Title"] = "Dashboard Ligue";
+}
+
+<div class="container mt-5">
+    <!-- Section de pari sur la prochaine course -->
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-6 text-center">
+            <h2 class="mb-4">Pro Leage</h2>
+            <button class="btn btn-primary btn-lg" onclick="window.location.href='/Parier'">
+                Parier sur la prochaine course
+            </button>
+        </div>
+    </div>
+
+    <!-- Section du top 3 de la ligue -->
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <h3 class="mb-4">Classement actuel - Top 3</h3>
+            <table class="table table-hover shadow-lg">
+                <thead class="table-secondary">
+                <tr>
+                    <th scope="col">Position</th>
+                    <th scope="col">Joueur</th>
+                    <th scope="col">Points</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Jonh Doe</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Jane Doe</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bob Smith</td>
+                    <td>100</td>
+                </tr>
+                </tbody>
+            </table>
+            <!-- Centrer le bouton -->
+            <div class="text-center">
+                <button class="btn btn-outline-secondary btn-lg" onclick="window.location.href='/ClassementLigue'">
+                    Voir le classement complet
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tableau des courses World Tour -->
+    <div class="row mt-5">
+        <div class="col-md-12 mx-auto">
+            <h3 class="mb-4">Courses World Tour</h3>
+            <table class="table table-hover shadow-lg">
+                <thead class="table-primary">
+                <tr>
+                    <th scope="col">Nom de la course</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Gagnant réel</th>
+                    <th scope="col">Gagnant du pari</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr onclick="window.location.href='/Course'">
+                    <td>Tour de France</td>
+                    <td>26/06/2021</td>
+                    <td>Pogacar</td>
+                    <td>John Doe</td>
+                </tr>
+                <tr onclick="window.location.href='/Course'">
+                    <td>Giro d'Italia</td>
+                    <td>08/05/2021</td>
+                    <td>Bernal</td>
+                    <td>Jonh Doe</td>
+                </tr>
+                <tr onclick="window.location.href='/Course'">
+                    <td>Giro d'Italia</td>
+                    <td>08/05/2021</td>
+                    <td>Bernal</td>
+                    <td>Jonh Doe</td>
+                </tr>
+                <tr>
+                    <td>Giro d'Italia</td>
+                    <td>08/05/2021</td>
+                    <td>Bernal</td>
+                    <td>Jonh Doe</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

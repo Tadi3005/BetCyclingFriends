@@ -1,0 +1,38 @@
+@page "/Parier"
+@model ParierModel
+@{
+ViewData["Title"] = "Parier sur la course";
+}
+
+<div class="container mt-5">
+    <!-- Nom de la course -->
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-8 text-center">
+            <h1 class="display-5">Parier sur Tour de France</h1>
+        </div>
+    </div>
+
+    <!-- Formulaire de pari -->
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form method="post">
+                <!-- Input pour le favori -->
+                <div class="form-group mb-3">
+                    <label for="favorite" class="form-label">Coureur favori</label>
+                    <input type="text" class="form-control" id="favorite" name="favorite" placeholder="Entrer le nom du coureur favori" required>
+                </div>
+
+                <!-- Input pour le bonus -->
+                <div class="form-group mb-3">
+                    <label for="favorite" class="form-label">Coureur bonus</label>
+                    <input type="text" class="form-control" id="bonus" name="bonus" placeholder="Entrer le nom du coureur bonus" required>
+                </div>
+
+                <!-- Bouton Valider -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success btn-lg">Valider</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

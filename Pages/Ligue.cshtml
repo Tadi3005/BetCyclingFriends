@@ -1,0 +1,64 @@
+@page
+@model LigueModel
+@{
+ViewData["Title"] = "Mes Ligues";
+}
+
+<div class="container mt-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4">Mes Ligues</h1>
+        <p class="lead">Rejoignez une ligue en entrant un code à 6 chiffres, ou gérez vos ligues existantes.</p>
+    </div>
+
+    <!-- Section pour rejoindre une ligue -->
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-6">
+            <div class="card shadow-lg p-4">
+                <h3 class="text-center mb-4">Rejoindre une ligue</h3>
+
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Entrez un code à 6 chiffres" aria-label="Code de ligue" maxlength="6">
+                    <button class="btn btn-success" type="button">Rejoindre</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tableau des ligues existantes -->
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <h3 class="mb-4">Mes Ligues</h3>
+
+            <table class="table table-hover shadow-lg">
+                <thead class="table-primary">
+                <tr>
+                    <th scope="col">Nom de la ligue</th>
+                    <th scope="col">Nombre de joueurs</th>
+                    <th scope="col">Classement actuel</th>
+                    <th scope="col">Quitter</th>
+                </tr>
+                </thead>
+                <tbody>
+                <!-- Exemple de données, à remplacer par une boucle avec tes données réelles -->
+                <tr onclick="window.location.href='/DashboardLigue'">
+                    <td>Tour de France Fans</td>
+                    <td>12</td>
+                    <td>5ème</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Quitter</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giro Passionnés</td>
+                    <td>8</td>
+                    <td>2ème</td>
+                    <td>
+                        <button class="btn btn-danger btn-sm">Quitter</button>
+                    </td>
+                </tr>
+                <!-- Ajouter d'autres lignes en fonction des ligues de l'utilisateur -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

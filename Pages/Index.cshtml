@@ -1,0 +1,38 @@
+﻿@page
+@model IndexModel
+@{
+ViewData["Title"] = "Home page";
+}
+
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4 mb-4">Bienvenue sur BetCyclingFriends</h1>
+        <p class="lead">
+            BetCyclingFriends est une plateforme conviviale qui permet aux amateurs de cyclisme de se retrouver entre amis pour parier sur les courses du World Tour.
+            Chaque joueur peut choisir un coureur favori et un "bonus" pour chaque course. Les points sont attribués en fonction du classement final
+            du coureur sélectionné. Seuls les coureurs classés dans le top 10 rapportent des points, rendant chaque pari stratégique et excitant.
+        </p>
+    </div>
+
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+            <div class="card shadow-lg p-4">
+                <h3 class="text-center mb-4">Connexion</h3>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="addon-wrapping">Nom d'utilisateur</span>
+                    <input type="text" class="form-control" placeholder="Jean1234" aria-label="Jean1234" aria-describedby="addon-wrapping">
+                </div>
+
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="addon-wrapping">Mot de passe</span>
+                    <input type="password" class="form-control" placeholder="********" aria-label="Mot de passe" aria-describedby="addon-wrapping">
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-primary btn-lg">Se connecter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
