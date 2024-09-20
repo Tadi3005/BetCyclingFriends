@@ -18,20 +18,34 @@ ViewData["Title"] = "Home page";
         <div class="col-md-6">
             <div class="card shadow-lg p-4">
                 <h3 class="text-center mb-4">Connexion</h3>
-
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="addon-wrapping">Nom d'utilisateur</span>
-                    <input type="text" class="form-control" placeholder="Jean1234" aria-label="Jean1234" aria-describedby="addon-wrapping">
+                
+                @if (!ModelState.IsValid)
+                {
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                        <li>@error.ErrorMessage</li>
+                        }
+                    </ul>
                 </div>
+                }
+                
+                <form method="post">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="addon-wrapping">Nom d'utilisateur</span>
+                        <input type="text" class="form-control" name="Username" placeholder="Jean1234" aria-label="Jean1234" aria-describedby="addon-wrapping">
+                    </div>
 
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="addon-wrapping">Mot de passe</span>
-                    <input type="password" class="form-control" placeholder="********" aria-label="Mot de passe" aria-describedby="addon-wrapping">
-                </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="addon-wrapping">Mot de passe</span>
+                        <input type="password" class="form-control" name="Password" placeholder="********" aria-label="Mot de passe" aria-describedby="addon-wrapping">
+                    </div>
 
-                <div class="text-center">
-                    <button class="btn btn-primary btn-lg">Se connecter</button>
-                </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">Se connecter</button>
+                    </div>
+                </form>
 
                 <!-- Bouton d'inscription -->
                 <div class="text-center mt-3">

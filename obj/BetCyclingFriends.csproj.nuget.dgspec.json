@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/altad/Coding/Rider/BetCyclingFriends/BetCyclingFriends.csproj": {}
+    "C:\\Users\\alext\\RiderProjects\\BetCyclingFriends\\BetCyclingFriends.csproj": {}
   },
   "projects": {
-    "/home/altad/Coding/Rider/BetCyclingFriends/BetCyclingFriends.csproj": {
+    "C:\\Users\\alext\\RiderProjects\\BetCyclingFriends\\BetCyclingFriends.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/altad/Coding/Rider/BetCyclingFriends/BetCyclingFriends.csproj",
+        "projectUniqueName": "C:\\Users\\alext\\RiderProjects\\BetCyclingFriends\\BetCyclingFriends.csproj",
         "projectName": "BetCyclingFriends",
-        "projectPath": "/home/altad/Coding/Rider/BetCyclingFriends/BetCyclingFriends.csproj",
-        "packagesPath": "/home/altad/.nuget/packages/",
-        "outputPath": "/home/altad/Coding/Rider/BetCyclingFriends/obj/",
+        "projectPath": "C:\\Users\\alext\\RiderProjects\\BetCyclingFriends\\BetCyclingFriends.csproj",
+        "packagesPath": "C:\\Users\\alext\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alext\\RiderProjects\\BetCyclingFriends\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/altad/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\alext\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -40,13 +40,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.425/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.425\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BetCyclingFriends
 build_property.RootNamespace = BetCyclingFriends
-build_property.ProjectDir = /home/altad/Coding/Rider/BetCyclingFriends/
+build_property.ProjectDir = C:\Users\alext\RiderProjects\BetCyclingFriends\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/altad/Coding/Rider/BetCyclingFriends
+build_property.MSBuildProjectDirectory = C:\Users\alext\RiderProjects\BetCyclingFriends
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/ClassementCourse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xhc3NlbWVudENvdXJzZS5jc2h0bWw=
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/ClassementCourse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NlbWVudENvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/ClassementLigue.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2xhc3NlbWVudExpZ3VlLmNzaHRtbA==
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/ClassementLigue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xhc3NlbWVudExpZ3VlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Course.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291cnNlLmNzaHRtbA==
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/Course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/DashboardLigue.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGFzaGJvYXJkTGlndWUuY3NodG1s
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/DashboardLigue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkTGlndWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Inscription.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5zY3JpcHRpb24uY3NodG1s
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/Inscription.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zY3JpcHRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Ligue.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlndWUuY3NodG1s
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/Ligue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlndWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/ModifierParis.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW9kaWZpZXJQYXJpcy5jc2h0bWw=
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/ModifierParis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZpZXJQYXJpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Parier.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFyaWVyLmNzaHRtbA==
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/Parier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFyaWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/altad/Coding/Rider/BetCyclingFriends/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1ey852a0k8
+[C:/Users/alext/RiderProjects/BetCyclingFriends/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jg9s6uaye2

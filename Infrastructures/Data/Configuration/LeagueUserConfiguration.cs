@@ -21,5 +21,38 @@ public class LeagueUserConfiguration : IEntityTypeConfiguration<LeagueUser>
         builder.HasOne(lu => lu.User)
             .WithMany(u => u.LeagueUsers)
             .HasForeignKey(lu => lu.UserId);
+        
+        this.SeedData(builder);
+    }
+
+    private void SeedData(EntityTypeBuilder<LeagueUser> builder)
+    {
+        builder.HasData(new List<LeagueUser>
+            {
+                new LeagueUser
+                {
+                    LeagueId = 1,
+                    UserId = 1,
+                    PointsInLeague = 100
+                },
+                new LeagueUser
+                {
+                    LeagueId = 1,
+                    UserId = 2,
+                    PointsInLeague = 200
+                },
+                new LeagueUser
+                {
+                    LeagueId = 2,
+                    UserId = 1,
+                    PointsInLeague = 300
+                },
+                new LeagueUser
+                {
+                    LeagueId = 2,
+                    UserId = 2,
+                    PointsInLeague = 400
+                }
+            });
     }
 }

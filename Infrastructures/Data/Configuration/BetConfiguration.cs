@@ -29,5 +29,23 @@ public class BetConfiguration : IEntityTypeConfiguration<Bet>
         builder.HasOne(b => b.Race)
             .WithMany(r => r.Bets)
             .HasForeignKey(b => b.RaceId);
+        
+        this.SeedData(builder);
+    }
+
+    private void SeedData(EntityTypeBuilder<Bet> builder)
+    {
+        builder.HasData(new List<Bet>
+        {
+            new Bet
+            {
+                Id = 1,
+                FavoriRider = "Tadej Pogacar",
+                BonusRider = "Primoz Roglic",
+                PointsGained = 100,
+                UserId = 1,
+                RaceId = 1
+            },
+        });
     }
 }

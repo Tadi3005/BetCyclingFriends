@@ -2,9 +2,9 @@ using BetCyclingFriends.Domains;
 using BetCyclingFriends.Infrastructures.Data.Configuration;
 using Microsoft.EntityFrameworkCore;
 
-public class ApplicationDbContext : DbContext
+public class BetCyclingFriendsDbContext : DbContext
    {
-       public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+       public BetCyclingFriendsDbContext(DbContextOptions<BetCyclingFriendsDbContext> options) : base(options)
        {
        }
    
@@ -20,8 +20,8 @@ public class ApplicationDbContext : DbContext
    
            modelBuilder.ApplyConfiguration(new UserConfiguration());
            modelBuilder.ApplyConfiguration(new LeagueConfiguration());
-           modelBuilder.ApplyConfiguration(new LeagueUserConfiguration());
            modelBuilder.ApplyConfiguration(new RaceConfiguration());
+           modelBuilder.ApplyConfiguration(new LeagueUserConfiguration());
            modelBuilder.ApplyConfiguration(new BetConfiguration());
        }
    }

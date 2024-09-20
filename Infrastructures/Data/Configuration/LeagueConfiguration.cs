@@ -28,5 +28,26 @@ public class LeagueConfiguration : IEntityTypeConfiguration<League>
         builder.HasMany(l => l.Races)
             .WithOne(r => r.League)
             .HasForeignKey(r => r.LeagueId);
+        
+        this.SeedData(builder);
+    }
+
+    private void SeedData(EntityTypeBuilder<League> builder)
+    {
+        builder.HasData(new List<League>
+            {
+                new League
+                {
+                    Id = 1,
+                    Name = "League 1",
+                    Password = "123456"
+                },
+                new League
+                {
+                    Id = 2,
+                    Name = "League 2",
+                    Password = "654321"
+                }
+            });
     }
 }
